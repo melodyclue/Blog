@@ -56,7 +56,7 @@ export default async (post: CollectionEntry<"blog">) => {
         >
           <p
             style={{
-              fontSize: 72,
+              fontSize: 68,
               fontWeight: "bold",
               maxHeight: "84%",
               overflow: "hidden",
@@ -99,7 +99,7 @@ export default async (post: CollectionEntry<"blog">) => {
       height: 630,
       embedFont: true,
       fonts: (await loadGoogleFonts(
-        post.data.title + post.data.author + SITE.title + "by"
+        `${post.data.title + post.data.author + SITE.title}by`
       )) as FontOptions[],
     }
   );
