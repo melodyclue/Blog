@@ -1,7 +1,7 @@
 ---
 author: literal
-pubDatetime: 2025-01-13T13:00:00+09:00
-modDatetime: 2025-01-13T13:00:00+09:00
+pubDatetime: 2025-01-13T13:00:00
+modDatetime: 2025-01-13T13:00:00
 title: Day2 - 個人開発者向けリンクツリー 「DevTree」
 slug: day2-introduction-devtree
 featured: true
