@@ -6,18 +6,16 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
+import partytown from "@astrojs/partytown";
+
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
-  integrations: [
-    tailwind({
-      applyBaseStyles: false,
-    }),
-    react(),
-    sitemap({
-      filter: page => SITE.showArchives || !page.endsWith("/archives"),
-    }),
-  ],
+  integrations: [tailwind({
+    applyBaseStyles: false,
+  }), react(), sitemap({
+    filter: page => SITE.showArchives || !page.endsWith("/archives"),
+  }), partytown()],
   markdown: {
     remarkPlugins: [
       remarkToc,
