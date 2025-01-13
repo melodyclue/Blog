@@ -4,7 +4,7 @@ pubDatetime: 2025-01-13T12:00:00+09:00
 modDatetime: 2025-01-13T12:00:00+09:00
 title: Day1 - PSBLフレームワーク
 slug: day1-what-is-psbl
-featured: true
+featured: false
 draft: false
 tags:
   - 個人開発
