@@ -3,34 +3,22 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+初めまして！私は、Reactが好きな日本出身のフロントエンドエンジニアです。
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+仕事では、主にNext.jsとReact Router v7を使用しています。StripeやSupabaseをフル活用して業務システムの構築、保守や、新規で自社開発にも取り組んでいます。
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+2025年は、個人開発に力を入れ、新しいアイデアを形にしていきたいと考えています。
+
+---
+
+Hi, I'm a front-end engineer born and raised in Japan.
+
+I'm a big fan of React and its ecosystem, and I'm always eager to learn new technologies.
+
+Currently, I'm working with Next.js and React Router v7 in my professional projects. I'm fully utilizing tools like Stripe and Supabase to build and maintain business systems, and I'm also involved in developing new in-house systems.
+
+In 2025, I'm planning to focus more on personal projects and explore new ideas to bring them to life. I believe that personal projects are a great way to learn and grow as a developer.
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
-
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
